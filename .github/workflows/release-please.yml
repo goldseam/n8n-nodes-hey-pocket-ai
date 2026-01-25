@@ -36,5 +36,7 @@ jobs:
       - uses: ./.github/actions/setup-bun
       - name: Publish to npm
         run: |
+          # Remove extractDataFromResponse.ts file to not fail build
+          rm nodes/HeyPocketAi/utils/extractDataFromResponse.test.ts
           bun run build
           bun run publish --access public --no-git-checks --tag ${{ needs.release-please.outputs.tag_name }}
