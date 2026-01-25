@@ -1,6 +1,6 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
-import { userDescription } from './resources/user';
-import { companyDescription } from './resources/company';
+import { tagDescription } from './resources/tag';
+import { recordingDescription } from './resources/recording';
 
 export class HeyPocketAi implements INodeType {
 	description: INodeTypeDescription = {
@@ -33,18 +33,18 @@ export class HeyPocketAi implements INodeType {
 				noDataExpression: true,
 				options: [
 					{
-						name: 'User',
-						value: 'user',
+						name: 'Recording',
+						value: 'recording',
 					},
 					{
-						name: 'Company',
-						value: 'company',
+						name: 'Tag',
+						value: 'tag',
 					},
 				],
-				default: 'user',
+				default: 'recording',
 			},
-			...userDescription,
-			...companyDescription,
+			...recordingDescription,
+			...tagDescription,
 		],
 	};
 }

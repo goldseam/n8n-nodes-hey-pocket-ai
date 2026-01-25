@@ -1,8 +1,8 @@
 # n8n-nodes-hey-pocket-ai
 
-This is an n8n community node. It lets you use _app/service name_ in your n8n workflows.
+This is an n8n community node. It lets you use [Pocket AI](https://heypocket.com) in your n8n workflows.
 
-_App/service name_ is _one or two sentences describing the service this node integrates with_.
+Hey Pocket AI is an AI-powered meeting and recording assistant that captures, transcribes, and summarizes your audio recordings.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/sustainable-use-license/) workflow automation platform.
 
@@ -20,27 +20,61 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Operations
 
-_List the operations supported by your node._
+### Recording
+
+- **Get Many**: Retrieve a paginated list of recordings with optional filtering by date range and tags
+- **Get**: Retrieve a single recording with full details, including optional transcript and summarizations
+- **Get Audio URL**: Generate a pre-signed URL for downloading the audio file
+
+### Tag
+
+- **Get Many**: Retrieve all tags with their usage counts
 
 ## Credentials
 
-_If users need to authenticate with the app/service, provide details here. You should include prerequisites (such as signing up with the service), available authentication methods, and how to set them up._
+To use this node, you need a Hey Pocket AI API access token.
+
+1. Sign up for a [Hey Pocket AI](https://heypocketai.com) account
+2. Generate an API access token from your account settings
+3. In n8n, create new credentials of type "Hey Pocket AI API"
+4. Enter your access token
 
 ## Compatibility
 
-_State the minimum n8n version, as well as which versions you test against. You can also include any known version incompatibility issues._
+Tested with n8n version 1.x.
 
 ## Usage
 
-_This is an optional section. Use it to help users with any difficult or confusing aspects of the node._
+### Filtering Recordings
 
-_By the time users are looking for community nodes, they probably already know n8n basics. But if you expect new users, you can link to the [Try it out](https://docs.n8n.io/try-it-out/) documentation to help them get started._
+When using the "Get Many" operation for recordings, you can filter by:
+
+- **Date range**: Specify start and end dates in YYYY-MM-DD format (UTC)
+- **Tags**: Provide comma-separated tag IDs to filter by specific tags
+
+### Including Additional Data
+
+When retrieving a single recording with the "Get" operation, you can choose to include:
+
+- **Transcript**: The full transcript of the recording
+- **Summarizations**: AI-generated summaries of the recording content
+
+### Audio Downloads
+
+The "Get Audio URL" operation generates a pre-signed S3 URL. You can configure:
+
+- **Expiration time**: How long the URL remains valid (60 to 86400 seconds, default: 3600)
 
 ## Resources
 
-* [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
-* _Link to app/service documentation._
+- [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
+- [Hey Pocket AI](https://heypocketai.com)
 
 ## Version history
 
-_This is another optional section. If your node has multiple versions, include a short description of available versions and what changed, as well as any compatibility impact._
+### 0.0.1
+
+Initial release with support for:
+
+- Recording operations (Get Many, Get, Get Audio URL)
+- Tag operations (Get Many)

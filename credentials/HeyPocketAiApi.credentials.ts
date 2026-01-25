@@ -6,7 +6,6 @@ import type {
 	INodeProperties,
 } from 'n8n-workflow';
 
-
 export class HeyPocketAiApi implements ICredentialType {
 	name = 'heyPocketAiApi';
 
@@ -40,8 +39,7 @@ export class HeyPocketAiApi implements ICredentialType {
 	test: ICredentialTestRequest = {
 		request: {
 			baseURL: 'https://public.heypocketai.com',
-			url: '/v1/user',
+			url: '/api/v1/public/tags',
 		},
 	};
 }
-
