@@ -2,22 +2,22 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 import { userDescription } from './resources/user';
 import { companyDescription } from './resources/company';
 
-export class GoldseamHeyPocketAi implements INodeType {
+export class HeyPocketAi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Goldseam Hey Pocket Ai',
-		name: 'goldseamHeyPocketAi',
-		icon: { light: 'file:goldseamHeyPocketAi.svg', dark: 'file:goldseamHeyPocketAi.dark.svg' },
+		displayName: 'Hey Pocket AI',
+		name: 'heyPocketAi',
+		icon: { light: 'file:pocketai.light.svg', dark: 'file:pocketai.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-		description: 'Interact with the Goldseam Hey Pocket Ai API',
+		description: 'Interact with the Hey Pocket AI API',
 		defaults: {
-			name: 'Goldseam Hey Pocket Ai',
+			name: 'Hey Pocket AI',
 		},
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
-		credentials: [{ name: 'goldseamHeyPocketAiApi', required: true }],
+		credentials: [{ name: 'heyPocketAiApi', required: true }],
 		requestDefaults: {
 			baseURL: 'https://public.heypocketai.com',
 			headers: {

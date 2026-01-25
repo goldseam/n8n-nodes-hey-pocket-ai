@@ -1,11 +1,15 @@
 {
-  "name": "@goldseam/n8n-nodes-hey-pocket-ai",
+  "name": "n8n-nodes-hey-pocket-ai",
   "version": "0.0.1",
   "description": "n8n community node for Hey Pocket AI API integration",
   "license": "MIT",
   "homepage": "",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "AI",
+    "Productivity",
+    "Meetings",
+    "Notes"
   ],
   "author": {
     "name": "Goldseam AI Consulting",
@@ -31,10 +35,10 @@
     "n8nNodesApiVersion": 1,
     "strict": true,
     "credentials": [
-      "dist/credentials/GoldseamHeyPocketAiApi.credentials.js"
+      "dist/credentials/HeyPocketAiApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/GoldseamHeyPocketAi/GoldseamHeyPocketAi.node.js"
+      "dist/nodes/HeyPocketAi/HeyPocketAi.node.js"
     ]
   },
   "devDependencies": {

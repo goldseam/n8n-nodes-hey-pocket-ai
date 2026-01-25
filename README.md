@@ -1,4 +1,4 @@
-# @goldseam/n8n-nodes-hey-pocket-ai
+# n8n-nodes-hey-pocket-ai
 
 This is an n8n community node. It lets you use _app/service name_ in your n8n workflows.
 

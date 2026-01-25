@@ -1,0 +1,23 @@
+{
+	"node": "n8n-nodes-hey-pocket-ai",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"AI",
+		"Productivity",
+		"Meetings",
+		"Notes"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/goldseam/n8n-nodes-hey-pocket-ai?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/goldseam/n8n-nodes-hey-pocket-ai?tab=readme-ov-file"
+			}
+		]
+	}
+}

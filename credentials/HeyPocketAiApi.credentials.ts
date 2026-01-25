@@ -1,17 +1,21 @@
 import type {
 	IAuthenticateGeneric,
+	Icon,
 	ICredentialTestRequest,
 	ICredentialType,
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class GoldseamHeyPocketAiApi implements ICredentialType {
-	name = 'goldseamHeyPocketAiApi';
 
-	displayName = 'Goldseam Hey Pocket Ai API';
+export class HeyPocketAiApi implements ICredentialType {
+	name = 'heyPocketAiApi';
+
+	displayName = 'Hey Pocket AI API';
+	icon: Icon = { light: 'file:pocketai.light.svg', dark: 'file:pocketai.dark.svg' };
 
 	// Link to your community node's README
-	documentationUrl = 'https://github.com/org/@goldseam/-hey-pocket-ai?tab=readme-ov-file#credentials';
+	documentationUrl =
+		'https://github.com/goldseam/n8n-nodes-hey-pocket-ai?tab=readme-ov-file#credentials';
 
 	properties: INodeProperties[] = [
 		{
@@ -40,3 +44,4 @@ export class GoldseamHeyPocketAiApi implements ICredentialType {
 		},
 	};
 }
+
