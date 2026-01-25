@@ -72,6 +72,13 @@ The "Get Audio URL" operation generates a pre-signed S3 URL. You can configure:
 
 ## Version history
 
+## [0.1.0](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.0.1...v0.1.0) (2026-01-25)
+
+
+### Features
+
+* create tag & recording resources ([41f6dba](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/41f6dbac5ddc114826cc89162e8d99c919f7f6e1))
+
 ### 0.0.1
 
 Initial release with support for:
