@@ -6,13 +6,13 @@ Hey Pocket AI is an AI-powered meeting and recording assistant that captures, tr
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/sustainable-use-license/) workflow automation platform.
 
-[Installation](#installation)
-[Operations](#operations)
-[Credentials](#credentials)
-[Compatibility](#compatibility)
-[Usage](#usage)
-[Resources](#resources)
-[Version history](#version-history)
+- [Installation](#installation)
+- [Operations](#operations)
+- [Credentials](#credentials)
+- [Compatibility](#compatibility)
+- [Usage](#usage)
+- [Resources](#resources)
+- [Version history](#version-history)
 
 ## Installation
 
@@ -29,6 +29,10 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 ### Tag
 
 - **Get Many**: Retrieve all tags with their usage counts
+
+### Action Item
+
+- **Get Many**: Extract AI-generated action items from recordings' summarizations
 
 ## Credentials
 
@@ -74,10 +78,9 @@ The "Get Audio URL" operation generates a pre-signed S3 URL. You can configure:
 
 ## [0.1.0](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.0.1...v0.1.0) (2026-01-25)
 
-
 ### Features
 
-* create tag & recording resources ([41f6dba](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/41f6dbac5ddc114826cc89162e8d99c919f7f6e1))
+- create tag & recording resources ([41f6dba](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/41f6dbac5ddc114826cc89162e8d99c919f7f6e1))
 
 ### 0.0.1
 
