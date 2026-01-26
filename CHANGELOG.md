@@ -1,3 +1,17 @@
+# Changelog
+
+## [0.2.0](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.1.1...v0.2.0) (2026-01-26)
+
+
+### Features
+
+* create virtual resource to extract action items ([8d786a8](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/8d786a8fbec544f9aa41b8683420b97a9643deb5))
+
+
+### Continuous Integration
+
+* run release ([6dd54c9](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/6dd54c92c02fdef59a577288743c153b80eef6fd))
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.

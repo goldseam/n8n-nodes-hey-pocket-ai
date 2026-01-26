@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-hey-pocket-ai",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "n8n community node for Hey Pocket AI API integration",
   "license": "MIT",
   "homepage": "",
