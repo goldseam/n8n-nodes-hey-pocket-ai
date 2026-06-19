@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.2.1...v0.2.2) (2026-06-19)
+
+
+### Continuous Integration
+
+* configure npm auth ([87902ce](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/87902ceba3378807a4af6b78f26e8704843ff57a))
+
 ## [0.2.1](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.2.0...v0.2.1) (2026-06-19)
 
 
