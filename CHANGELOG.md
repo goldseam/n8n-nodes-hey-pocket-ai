@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.1](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.2.0...v0.2.1) (2026-06-19)
+
+
+### Bug Fixes
+
+* improve discoverability fixes [#4](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/issues/4) ([2964881](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/296488163986d7aa88c8a53b073edd850f55b9c3))
+
+
+### Continuous Integration
+
+* clean up release workflow ([9c010d0](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/commit/9c010d02b3ab53a8bced1b01cd50959ebadd872a))
+
 ## [0.2.0](https://github.com/goldseam/n8n-nodes-hey-pocket-ai/compare/v0.1.1...v0.2.0) (2026-01-26)
 
 
