@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-hey-pocket-ai",
+	"node": "n8n-nodes-hey-pocket-ai.heyPocketAi",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": [
@@ -7,6 +7,16 @@
 		"Productivity",
 		"Meetings",
 		"Notes"
+	],
+	"alias": [
+		"Hey Pocket AI",
+		"Pocket",
+		"PocketAI",
+		"Recording",
+		"Transcript",
+		"Meeting",
+		"Notes",
+		"Action Item"
 	],
 	"resources": {
 		"credentialDocumentation": [
